@@ -47,7 +47,7 @@ vercel --prod
 
 ## Extension setup
 
-1. Deploy the backend or run it locally. Current test backend: `https://commodities-garlic-painted-collaboration.trycloudflare.com`.
+1. Deploy the backend or run it locally. Current test backend: `https://organised-prefer-thesaurus-worldcat.trycloudflare.com`.
 2. Open `chrome://extensions`.
 3. Enable Developer Mode.
 4. Load unpacked extension from `extension/`.
