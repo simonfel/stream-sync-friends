@@ -28,7 +28,16 @@ UPSTASH_REDIS_REST_URL=...
 UPSTASH_REDIS_REST_TOKEN=...
 ```
 
-Then deploy:
+Then deploy one of two ways:
+
+### Option A: Vercel GitHub import
+
+1. Import `simonfel/stream-sync-friends` in Vercel.
+2. Set **Root Directory** to `backend`.
+3. Add `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN` env vars.
+4. Deploy.
+
+### Option B: Vercel CLI
 
 ```bash
 cd backend
