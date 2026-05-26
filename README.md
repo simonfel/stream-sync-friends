@@ -47,7 +47,7 @@ vercel --prod
 
 ## Extension setup
 
-1. Deploy the backend or run it locally.
+1. Deploy the backend or run it locally. A live MVP backend is currently deployed at `https://backend-ecru-five-28.vercel.app`.
 2. Open `chrome://extensions`.
 3. Enable Developer Mode.
 4. Load unpacked extension from `extension/`.
