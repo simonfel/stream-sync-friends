@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Stream Sync Friends",
+  "description": "Delay and nudge HTML5 video playback so friends can align live sports streams from different sources.",
+  "version": "0.1.0",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Stream Sync Friends"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
